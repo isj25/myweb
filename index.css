@@ -204,3 +204,170 @@ a:hover {
     /* text-align: center; */
   }
 }
+
+
+
+@media only screen and (max-width: 460px) {
+  .section-heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: "Roboto Mono", monospace;
+    /* text-align: center; */
+  }
+
+
+  body {
+    margin: 0.1rem;
+    /* border: 10px solid blanchedalmond; */
+    height: auto;
+    padding: 0.2rem;
+  }
+  
+  #hi {
+    font-family: "Dancing Script", cursive;
+    text-align: left;
+    font-size: 2.2rem;
+    /* font-weight: bold; */
+  }
+  
+  #iam {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    text-align: left;
+  }
+  
+  #name {
+    font-size: 3rem;
+    font-family: "Charis SIL", serif;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .image {
+    text-align: center;
+    margin: auto;
+    height: auto;
+    width: 100%;
+  }
+  #college {
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: "Charis SIL", serif;
+    margin-top: 0;
+  }
+  
+  .mydetails {
+    /* text-align: center; */
+    margin: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+  }
+  
+  .row {
+    margin: 1rem;
+    min-height: 80vh;
+  
+    /* display: block; */
+  }
+  /* .first-profile{
+      height: 40rem;
+      margin: 2rem;
+  
+  } */
+  .container{
+    padding: 0.1rem;
+
+  }
+
+  .col{
+    padding: 0;
+    margin: 0.1rem;
+  }
+  /* .imgleft{
+      border-top: 15px solid blueviolet;
+      border-left: 15px solid blueviolet;
+      border-radius: 5px;
+  }
+  
+  
+  .imgright{
+      border-bottom: 13px solid blueviolet;
+      border-right: 13px solid blueviolet;
+      border-radius: 5px;
+  } */
+  
+  .row-divider {
+    border-bottom: 10px solid wheat;
+    height: 2rem;
+    margin: 1.5rem auto;
+    display: block;
+  }
+  
+  .contentparagraph-r {
+    /* background-color: #FFFAE6; */
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    border-top: 1px solid gray;
+    border-radius: 0;
+  }
+  
+  .contentparagraph {
+    /* background-color: #FFFAE6; */
+    font-size: 1rem;
+    text-align: left;
+    border-top: 1px solid gray;
+
+   
+  }
+  a{
+    font-size: 1rem;
+  }
+  .contentparagraph-l {
+    /* background-color: #FFFAE6; */
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    border-top: 1px solid gray;
+   
+    border-radius: 0;
+  }
+
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .information {
+    font-family: "Dancing Script";
+    /* font-family: 'Lora', serif;
+      font-family: 'Merriweather', serif;
+      font-family: 'Roboto Mono', monospace; */
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .info-name {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  .bottom {
+    text-align: center;
+  }
+  
+  .icons {
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+  
+
+
+
+  
+}
