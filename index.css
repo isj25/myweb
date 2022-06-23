@@ -51,6 +51,8 @@ img {
 
 .row {
   margin: 1rem;
+  min-height: 80vh;
+
   /* display: block; */
 }
 /* .first-profile{
