@@ -1,59 +1,63 @@
-body{
+body {
+  margin: 2rem;
+  border: 10px solid blanchedalmond;
+  height: auto;
+  padding: 2rem;
+}
+
+#hi {
+  font-family: "Dancing Script", cursive;
+  text-align: left;
+  font-size: 5rem;
+  /* font-weight: bold; */
+}
+
+#iam {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  text-align: left;
+}
+
+#name {
+  font-size: 5rem;
+  font-family: "Charis SIL", serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.image {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+#college {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Charis SIL", serif;
+  margin-top: 0;
+}
+
+.mydetails {
+  /* text-align: center; */
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  
+}
+
+.row {
+  margin: 1rem;
+  /* display: block; */
+}
+/* .first-profile{
+    height: 40rem;
     margin: 2rem;
-    border: 10px solid blanchedalmond;
-    height: auto;
-    padding: 2rem;
-}
 
-#hi{
-    font-family: 'Dancing Script', cursive;
-    text-align: left;
-    font-size: 5rem;
-    /* font-weight: bold; */
-}
-
-#iam{
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
-    text-align: left;
-}
-
-#name{
-    font-size: 5rem;
-    font-family: 'Charis SIL', serif;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-.image
-{
-    text-align: center;
-    margin: auto;
-    height: auto;
-    width: 100%;
-}
-#college{
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Charis SIL', serif;
-    margin-top: 0;
-}
-
-.mydetails{
-    /* text-align: center; */
-    margin: auto;
-}
-
-img{
-    width: 100%;
-    height: auto;
-    margin: 1rem;
-
-}
-
-.row{
-    height: 80vh;
-}
-
+} */
 
 /* .imgleft{
     border-top: 15px solid blueviolet;
@@ -68,91 +72,133 @@ img{
     border-radius: 5px;
 } */
 
-
-.row-divider{
-   border-bottom: 10px solid wheat;
-   padding: 2rem;
-   margin: 1.5rem auto;
- 
+.row-divider {
+  border-bottom: 10px solid wheat;
+  height: 2rem;
+  margin: 1.5rem auto;
+  display: block;
 }
 
-
-.contentparagraph-r
-{
-    /* background-color: #FFFAE6; */
-    border-radius: 5px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    padding: 0.5rem;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2rem;
-    margin: 2.5rem;
+.contentparagraph-r {
+  /* background-color: #FFFAE6; */
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0.5rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  margin: 2.5rem;
 }
 
+.contentparagraph {
+  /* background-color: #FFFAE6; */
 
-.contentparagraph
-{
-    /* background-color: #FFFAE6; */
-  
-    padding: 0.5rem;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2rem;
-    
-   
+  padding: 0.5rem;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
 }
 
-.contentparagraph-l
-{
-    /* background-color: #FFFAE6; */
-    border-radius: 5px;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    padding: 0.5rem;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.2rem;
-    margin: 2.5rem;
+.contentparagraph-l {
+  /* background-color: #FFFAE6; */
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 0.5rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  margin: 2.5rem;
 }
 
-
-.section-heading{
-    font-weight: bold;
-    font-size: 3rem;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto Mono', monospace;
+.section-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Roboto Mono", monospace;
 }
 
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
-
-.information{
-    font-family: 'Dancing Script';
-    /* font-family: 'Lora', serif;
+.information {
+  font-family: "Dancing Script";
+  /* font-family: 'Lora', serif;
     font-family: 'Merriweather', serif;
     font-family: 'Roboto Mono', monospace; */
-    line-height: 1.5rem;
-    font-size: 1.4rem;
+  line-height: 1.5rem;
+  font-size: 1.4rem;
 }
 
+.info-name {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
 
-.info-name{
+.bottom {
+  text-align: center;
+}
+
+.icons {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-heading {
     font-weight: bold;
-    font-size: 2.4rem;
-
-}
-
-
-.bottom
-{
+    font-size: 2rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: "Roboto Mono", monospace;
     text-align: center;
-}
+  }
 
-.icons
-{
+  .row{
+   margin: 0;
+  }
+
+  .contentparagraph-r {
+    /* background-color: #FFFAE6; */
+    border-radius: 5px;
+    border: 1px solid black;
+   
+    padding: 0.5rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: "Roboto Mono", monospace;
     font-size: 1.2rem;
     margin: 1rem;
+  }
+
+  .contentparagraph-l {
+    /* background-color: #FFFAE6; */
+    border-radius: 5px;
+    border: 1px solid black;
+   
+    padding: 0.5rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+
+  .info-name {
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  a{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .section-heading {
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: "Roboto Mono", monospace;
+    /* text-align: center; */
+  }
 }
