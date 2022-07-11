@@ -10,12 +10,14 @@ body {
   text-align: left;
   font-size: 5rem;
   /* font-weight: bold; */
+  animation: slide-left 0.7s ease-in;
 }
 
 #iam {
   font-family: "Dancing Script", cursive;
   font-size: 4rem;
   text-align: left;
+  animation: slide-left 0.8s ease-in;
 }
 
 #name {
@@ -23,18 +25,21 @@ body {
   font-family: "Charis SIL", serif;
   font-weight: bold;
   margin-bottom: 0;
+  animation: slide-left 1s ease-in;
 }
 .image {
   text-align: center;
   margin: auto;
   height: auto;
   width: 100%;
+  animation: slide-right 0.6s ease-in;
 }
 #college {
   font-size: 3rem;
   font-weight: bold;
   font-family: "Charis SIL", serif;
   margin-top: 0;
+  animation: slide-left 1s ease-in;
 }
 
 .mydetails {
@@ -81,7 +86,7 @@ img {
   display: block;
 }
 
-.contentparagraph-r {
+.contentparagraph-r{
   /* background-color: #FFFAE6; */
   border-radius: 5px;
   border-bottom: 1px solid black;
@@ -91,6 +96,7 @@ img {
   font-family: "Roboto Mono", monospace;
   font-size: 1.2rem;
   margin: 2.5rem;
+
 }
 
 .contentparagraph {
@@ -112,6 +118,7 @@ img {
   font-family: "Roboto Mono", monospace;
   font-size: 1.2rem;
   margin: 2.5rem;
+
 }
 
 .section-heading {
@@ -171,6 +178,7 @@ a:hover {
     font-family: "Roboto Mono", monospace;
     font-size: 1.2rem;
     margin: 1rem;
+    
   }
 
   .contentparagraph-l {
@@ -370,4 +378,39 @@ a:hover {
 
 
   
+}
+
+
+
+@keyframes slide-left {
+  
+
+  0%{
+    transform: translateX(-500px);
+  }
+
+
+
+  100%{
+    transform: translateX(0);
+  }
+ 
+}
+
+
+
+@keyframes slide-right {
+  
+
+  0%{
+    transform: translateX(500px);
+    opacity: 0;
+  }
+
+
+
+  100%{
+    transform: translateX(0);
+  }
+ 
 }
