@@ -10,14 +10,14 @@ body {
   text-align: left;
   font-size: 5rem;
   /* font-weight: bold; */
-  animation: slide-left 0.7s ease-in;
+  /* animation: slide-left 0.7s ease-in; */
 }
 
 #iam {
   font-family: "Dancing Script", cursive;
   font-size: 4rem;
   text-align: left;
-  animation: slide-left 0.8s ease-in;
+  /* animation: slide-left 0.8s ease-in; */
 }
 
 #name {
@@ -25,7 +25,7 @@ body {
   font-family: "Charis SIL", serif;
   font-weight: bold;
   margin-bottom: 0;
-  animation: slide-left 1s ease-in;
+  /* animation: slide-left 1s ease-in; */
 }
 .image {
   text-align: center;
@@ -39,7 +39,7 @@ body {
   font-weight: bold;
   font-family: "Charis SIL", serif;
   margin-top: 0;
-  animation: slide-left 1s ease-in;
+  /* animation: slide-left 1s ease-in; */
 }
 
 .mydetails {
@@ -383,7 +383,7 @@ a:hover {
 }
 
 
-
+/* 
 @keyframes slide-left {
   
 
@@ -397,11 +397,11 @@ a:hover {
     transform: translateX(0);
   }
  
-}
+} */
 
 
 
-@keyframes slide-right {
+/* @keyframes slide-right {
   
 
   0%{
@@ -415,7 +415,7 @@ a:hover {
     transform: translateX(0);
   }
  
-}
+} */
 
 
 @keyframes image-pop {
