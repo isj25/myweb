@@ -33,6 +33,7 @@ body {
   height: auto;
   width: 100%;
   animation: image-pop 1s ease-in-out;
+  
 }
 #college {
   font-size: 3rem;
@@ -51,7 +52,7 @@ img {
   width: 100%;
   height: auto;
   margin: auto;
-  
+ 
 }
 
 .row {
@@ -139,6 +140,8 @@ a:hover {
     font-family: 'Roboto Mono', monospace; */
   line-height: 1.5rem;
   font-size: 1.4rem;
+ 
+  
 }
 
 .info-name {
