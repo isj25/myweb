@@ -3,6 +3,7 @@ body {
   border: 10px solid #FFF8F4;
   height: auto;
   padding: 2rem;
+  
 }
 
 #hi {
@@ -37,7 +38,7 @@ body {
   
 }
 
-.think {
+.undraw {
   text-align: right;
   margin-left: auto;
 }
