@@ -1,6 +1,6 @@
 body {
   margin: 2rem;
-  border: 10px solid blanchedalmond;
+  border: 10px solid #FFF8F4;
   height: auto;
   padding: 2rem;
 }
@@ -49,39 +49,39 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 60%;
   height: auto;
   margin: auto;
+  
  
 }
 
+
+.middle{
+  margin: auto;
+  
+}
+
+.center{
+  text-align: center;
+}
 .row {
   margin: 1rem;
   min-height: 80vh;
 
   /* display: block; */
 }
-/* .first-profile{
-    height: 40rem;
-    margin: 2rem;
 
-} */
 
-/* .imgleft{
-    border-top: 15px solid blueviolet;
-    border-left: 15px solid blueviolet;
-    border-radius: 5px;
+#aboutme{
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  z-index: -1;
+ color: 	#A9A9A9;
 }
-
-
-.imgright{
-    border-bottom: 13px solid blueviolet;
-    border-right: 13px solid blueviolet;
-    border-radius: 5px;
-} */
-
 .row-divider {
-  border-bottom: 10px solid wheat;
+  border-bottom: 10px solid #EDE7E4;
   height: 2rem;
   margin: 1.5rem auto;
   display: block;
@@ -386,7 +386,7 @@ a:hover {
 }
 
 
-/* 
+
 @keyframes slide-left {
   
 
@@ -400,7 +400,7 @@ a:hover {
     transform: translateX(0);
   }
  
-} */
+}
 
 
 

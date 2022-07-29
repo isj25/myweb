@@ -3,7 +3,7 @@
 const myName = "Ishwar Joshi"
 
 const myNameElement= document.getElementById("name");
-
+const ABOUTME = "ABOUT ME"
 
 let letter = ""
 let letter2 =""
@@ -26,5 +26,8 @@ let index  = 0;
 
 
 })()
+
+
+
 
 
