@@ -178,6 +178,13 @@ a:hover {
    margin: 0;
   }
 
+  #aboutme{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+   color: 	#A9A9A9;
+  }
   .contentparagraph-r {
     /* background-color: #FFFAE6; */
     border-radius: 5px;
@@ -216,6 +223,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 540px) {
+  #aboutme{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+   color: 	#A9A9A9;
+  }
   .section-heading {
     font-weight: bold;
     font-size: 1.4rem;
@@ -228,6 +242,14 @@ a:hover {
 
 
 @media only screen and (max-width: 460px) {
+
+  #aboutme{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+   color: 	#A9A9A9;
+  }
   .section-heading {
     font-weight: bold;
     font-size: 1.2rem;
