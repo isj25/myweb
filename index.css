@@ -97,11 +97,31 @@ img {
 .contentparagraph-r{
   /* background-color: #FFFAE6; */
   border-radius: 5px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+  border: 1px solid black;
   padding: 0.5rem;
+  box-shadow: 1px 2px gray;
   /* font-family: 'Dancing Script', cursive; */
+
   font-family: "Roboto Mono", monospace;
+
+  font-size: 1.2rem;
+  margin: 2.5rem;
+
+}
+.contentparagraph-r:hover{
+  /* background-color: #FFFAE6; */
+  border-radius: 5px;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+  border: 1px solid black;
+  padding: 0.5rem;
+  box-shadow: 1px 3px gray;
+  /* font-family: 'Dancing Script', cursive; */
+
+  font-family: "Roboto Mono", monospace;
+
   font-size: 1.2rem;
   margin: 2.5rem;
 
@@ -119,8 +139,10 @@ img {
 .contentparagraph-l {
   /* background-color: #FFFAE6; */
   border-radius: 5px;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  /* border-bottom: 1px solid black;
+  border-left: 1px solid black; */
+  border: 1px solid black;
+  box-shadow: 1px 2px gray;
   padding: 0.5rem;
   /* font-family: 'Dancing Script', cursive; */
   font-family: "Roboto Mono", monospace;
@@ -128,6 +150,22 @@ img {
   margin: 2.5rem;
 
 }
+
+.contentparagraph-l:hover {
+  /* background-color: #FFFAE6; */
+  border-radius: 5px;
+  /* border-bottom: 1px solid black;
+  border-left: 1px solid black; */
+  border: 1px solid black;
+  box-shadow: 1px 3px gray;
+  padding: 0.5rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  margin: 2.5rem;
+
+}
+
 
 .section-heading {
   font-weight: bold;
@@ -223,6 +261,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 540px) {
+  body{
+    padding: 0.5rem;
+  }
   #aboutme{
     font-size: 4rem;
     font-weight: bold;
@@ -352,11 +393,11 @@ a:hover {
   
   .contentparagraph-r {
     /* background-color: #FFFAE6; */
-    border: none;
+    /* border: none; */
     font-size: 1rem;
     text-align: left;
-    border-top: 1px solid gray;
-    border-radius: 0;
+    /* border-top: 1px solid gray; */
+    /* border-radius: 0; */
   }
   
   .contentparagraph {
@@ -372,12 +413,12 @@ a:hover {
   }
   .contentparagraph-l {
     /* background-color: #FFFAE6; */
-    border: none;
+    /* border: none; */
     font-size: 1rem;
     text-align: left;
-    border-top: 1px solid gray;
+    /* border-top: 1px solid gray; */
    
-    border-radius: 0;
+    /* border-radius: 0; */
   }
 
   
