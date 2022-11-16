@@ -42,6 +42,11 @@ body {
   text-align: right;
   margin-left: auto;
 }
+
+
+.upcoming{
+  font-weight: bold;
+}
 #college {
   font-size: 3rem;
   font-weight: bold;
