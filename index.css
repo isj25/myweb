@@ -38,6 +38,18 @@ body {
   
 }
 
+
+
+.round-border{
+  border: 10px solid #0962ab;
+  border-radius: 90%;
+}
+
+
+video{
+ width: 100%;
+ height: auto;
+}
 .undraw {
   text-align: right;
   margin-left: auto;
